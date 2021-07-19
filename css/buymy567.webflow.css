@@ -1,0 +1,318 @@
+.body {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  color: #585858;
+  font-weight: 500;
+}
+
+.section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+._567tower {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  -webkit-transform: perspective(2000px);
+  transform: perspective(2000px);
+}
+
+.div-block-2 {
+  position: relative;
+  z-index: 5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+._567bg {
+  width: 105%;
+  height: 105%;
+  background-image: url('../images/567_bg.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+._567fg {
+  position: absolute;
+  z-index: 1;
+  width: 105%;
+  height: 105%;
+  background-image: url('../images/567_fe.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.title-heading {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  right: auto;
+  bottom: auto;
+  z-index: 2;
+  width: 50%;
+  color: #fff;
+  font-size: 80px;
+  line-height: 75px;
+  text-shadow: 1px 1px 6px #000;
+  white-space: normal;
+}
+
+.title1 {
+  position: relative;
+  width: 50%;
+  margin-left: 5%;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.title2 {
+  position: relative;
+  width: 50%;
+  margin-right: 5%;
+  margin-bottom: 30px;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.text3 {
+  position: relative;
+  margin-right: 5%;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.call-now {
+  position: relative;
+  width: 50%;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 500;
+}
+
+.phone-number {
+  position: relative;
+  width: 90%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  color: #e00;
+  font-size: 7vw;
+  line-height: 6vw;
+  font-weight: 500;
+  text-align: justify;
+  text-decoration: none;
+}
+
+.maggie-shaw {
+  position: relative;
+  width: 50%;
+  margin-top: 0px;
+  margin-right: 5%;
+  margin-bottom: 30px;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.lightbox {
+  width: 6vw;
+  height: 6vw;
+  margin: 10px;
+  background-image: url('../images/interiors-1.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.lightbox._2 {
+  background-image: url('../images/kitchen.jpg');
+}
+
+.lightbox._3 {
+  background-image: url('../images/bathroom.jpg');
+}
+
+.lightbox._4 {
+  background-image: url('../images/floor-plan.png');
+}
+
+.lightbox-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 5%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 991px) {
+  .section {
+    height: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .div-block-2 {
+    z-index: 5;
+    height: auto;
+    background-color: #fff;
+  }
+
+  ._567fg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .title-heading {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .title1 {
+    width: 80%;
+    font-size: 40px;
+  }
+
+  .title2 {
+    width: 70%;
+  }
+
+  .call-now {
+    width: 70%;
+    font-size: 5vw;
+  }
+
+  .maggie-shaw {
+    width: 70%;
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    height: auto;
+  }
+
+  ._567tower {
+    height: 100vh;
+  }
+
+  .div-block-2 {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  ._567tower {
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .div-block-2 {
+    width: 100vw;
+    height: auto;
+  }
+
+  .phone-number {
+    font-size: 13vw;
+  }
+
+  .lightbox {
+    width: 15vw;
+    height: 15vw;
+  }
+}
+
