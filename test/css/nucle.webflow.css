@@ -279,6 +279,7 @@
 .foot-note {
   position: absolute;
   bottom: 5%;
+  z-index: 5;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

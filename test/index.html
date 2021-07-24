@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Jul 24 2021 09:26:18 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sat Jul 24 2021 09:45:52 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="60ed150b83be9ea8ef0cb842" data-wf-site="60ed150b83be9e66bf0cb841">
 <head>
   <meta charset="utf-8">
@@ -30,42 +30,33 @@
      background: rgb(54, 49, 49);
  }
  </style>
-<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
-</script>
-<script>
-var settings = {
-  "async": true,
-  "crossDomain": true,
-  "url": "https://api.sendgrid.com/v3/marketing/contacts",
-  "method": "PUT",
-  "headers": {
-    "authorization": "Bearer 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",
-    "content-type": "application/json"
-  },
-  "processData": false,
-  "data": "{\"list_ids\":[\"8ca9d3dc-1972-4ef1-bd86-e6ba2f498111\"],\"contacts\":[{\"email\":\"\"}]}"
-};
-
-
-$(document).ready(function(){
-	$(".submit-button").click(function(){
-    settings.data = "{\"list_ids\":[\"8ca9d3dc-1972-4ef1-bd86-e6ba2f498111\"],\"contacts\":[{\"email\":\""+($('form').serializeArray())[0].value+"\"}]}"
-		$.ajax(settings).done(function (response) {
-      $( "#wf-form-Email-Form" ).css( "display", "none" );
-      $( ".w-form-done" ).css( "display", "block" );
-    });
-	});
-});
-</script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZH6E9CEFQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KZH6E9CEFQ');
-</script>
+ <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+ </script>
+ <script>
+ var settings = {
+   "async": true,
+   "crossDomain": true,
+   "url": "https://api.sendgrid.com/v3/marketing/contacts",
+   "method": "PUT",
+   "headers": {
+     "authorization": "Bearer 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",
+     "content-type": "application/json"
+   },
+   "processData": false,
+   "data": "{\"list_ids\":[\"8ca9d3dc-1972-4ef1-bd86-e6ba2f498111\"],\"contacts\":[{\"email\":\"\"}]}"
+ };
+ 
+ 
+ $(document).ready(function(){
+   $(".submit-button").click(function(){
+     settings.data = "{\"list_ids\":[\"8ca9d3dc-1972-4ef1-bd86-e6ba2f498111\"],\"contacts\":[{\"email\":\""+($('form').serializeArray())[0].value+"\"}]}"
+     $.ajax(settings).done(function (response) {
+       $( "#wf-form-Email-Form" ).css( "display", "none" );
+       $( ".w-form-done" ).css( "display", "block" );
+     });
+   });
+ });
+ </script>
 </head>
 <body class="body">
   <div class="section wf-section">
@@ -78,8 +69,7 @@ $(document).ready(function(){
         <div class="w-form-done">
           <div>Thank you! Your submission has been received!</div>
         </div>
-
-        </div>
+        
       </div>
       <div style="display:none;opacity:0" class="policy-popup">
         <h2 class="heading">Privacy Policy</h2>
@@ -89,7 +79,7 @@ $(document).ready(function(){
     </div>
     <div class="foot-note">
       <div class="social-media-icons">
-        <a href="https://discord.gg/kJEKuNBM6C" target="_blank" class="discord-link w-inline-block"><img src="images/Discord-Logo-Color.svg" loading="lazy" width="35.5" alt="Discord Logo" class="discord"></a>
+        <a href="https://discord.gg/kJEKuNBM6C" target="_blank" class="discord-link w-inline-block"><img src="images/Discord-Logo-Color.svg" loading="lazy" width="40" alt="Discord Logo" class="discord"></a>
       </div>
       <div data-w-id="7c136f94-aa6c-7374-17e3-5b263148abc7" style="opacity:0" class="privacy-policy">By signing up to our email updates, you agree to our <a href="#" data-w-id="3fad7d86-02cd-c170-9e48-55818cbbdfdf">Privacy Policy</a>
       </div>
