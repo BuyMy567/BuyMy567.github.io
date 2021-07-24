@@ -180,11 +180,10 @@
 }
 
 .privacy-policy {
-  position: absolute;
+  position: relative;
   top: auto;
   bottom: 5%;
   z-index: 1;
-  margin-top: -10px;
   font-family: Poppins, sans-serif;
   color: #303959;
   font-size: 14px;
@@ -277,7 +276,34 @@
   flex: 0 0 auto;
 }
 
+.foot-note {
+  position: absolute;
+  bottom: 5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.social-media-icons {
+  margin-bottom: 15px;
+}
+
 @media screen and (max-width: 991px) {
+  .line-break {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+
   .privacy-policy {
     text-align: center;
   }
@@ -288,6 +314,10 @@
     font-size: 30px;
   }
 
+  .logo {
+    max-width: 80vw;
+  }
+
   .hero {
     max-width: 80vw;
   }
@@ -295,6 +325,10 @@
   .privacy-policy {
     max-width: 70vw;
     text-align: center;
+  }
+
+  .foot-note {
+    z-index: 4;
   }
 }
 
